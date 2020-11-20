@@ -1,0 +1,282 @@
+*{
+	margin: 0; padding: 0;box-sizing: border-box;
+	/*font-family: 'Grandstander', cursive;*/
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+header{
+	width: 100%; height: 100vh;
+	background-image:linear-gradient(rgba(0,0,0,0.332),rgba(0,0,0,0.1)), url('images/CODE.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+nav{
+	
+	width: 100%; height: 15vh;
+	color: rgb(#99e8df); justify-content: space-between;
+	font-weight: bold; font-size: 15px;
+	text-align: center;
+	display:flex;
+	align-items: center;
+    text-transform: uppercase;
+    text-decoration: none;
+
+   
+}
+
+nav .logo{
+	width: 25%;
+	color: rgb(255,255,255);
+	text-align: center;
+
+}
+
+nav .menu{
+	width: 40%;
+	display: flex; justify-content: space-between;
+	align-items: center;
+	text-align: center;
+}
+
+nav .menu a{
+	width: 25%;
+	text-decoration: none; color: white;
+	font-weight: bold;
+}
+/*nav .sign-button a{
+	border-radius: 4px;
+	margin-top: 100px;
+	margin-left: 50px;
+	margin-right: 55px;
+	/*margin-bottom:100px;*/
+	/*padding: 12px 30px;
+	border-radius: 3px;
+	outline: none;
+	text-transform: uppercase; 
+	font-size: 15px;
+	font-weight: bolder;
+	text-decoration: none;
+	letter-spacing: 1px;
+	background: #bdf0bd;
+    color: black;*/
+}
+
+main{
+	width: 100%;
+	height: 85vh;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+section{
+	justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+section h3{
+	margin-top: 500px;
+	margin: 2px 0 2px 0;
+	font-size: 44px; font-weight: 200; letter-spacing: 2px;
+    color:#E8DB9A; /*#bfbf04;*/
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+
+section h1{
+	margin-top: 55px;
+	font-size: 55px;
+	font-weight: 700;
+	/*text-shadow: 2px 1px 5px;*/
+	text-transform: uppercase;
+	color: #B3CAAE;
+	letter-spacing: 2px;
+	text-align: center;
+	/*justify-content: center;
+	align-items:center; */
+}
+
+section p{
+	font-size: 20px;
+	margin-top: 40px;
+	margin-bottom: 60px;
+	color: white;
+	word-spacing: 2px;
+	text-shadow: 1px 1px 1px red;
+	/*display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;*/
+}
+
+section a{
+	margin-top: 100px;
+	/*margin-bottom:100px;*/
+	padding: 12px 30px;
+	border-radius: 4px;
+	outline: none;
+	text-transform: uppercase; 
+	font-size: 15px;
+	font-weight: bolder;
+	text-decoration: none;
+	letter-spacing: 1px;
+    /*justify-content:center;
+    align-items: center;
+    text-align: center;
+    display: center;*/
+
+}
+
+section .buttonone{
+	background: #bdf0bd;
+    color: black;
+}
+
+.buttonone:hover{
+	background: #7dba7d;
+	color: black;
+}
+
+section .buttontwo{
+	background: #7dba7d;
+	color: black;
+
+}
+
+.buttontwo:hover{
+	background:#7dba7d;
+	color: black;
+}
+
+.change_content:after  {
+	content: '';
+	animation: changetext 8s infinite linear;
+	color: #B3CAAE;
+
+}
+
+@keyframes changetext{
+	0%{content: "𝓑𝓞𝓞𝓚𝓢";}
+	20%{content: "𝔹𝕆𝕆𝕂𝕊";}
+	60%{content: "BOỖк𝓼";}
+    80%{content: "𝐵OO𝒦𝒮";}
+    100%{content:"вOσҜS";}
+}
+
+
+.pricing-table{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: min(1600px, 100%);
+  margin: auto;
+
+}
+
+.pricing-card{
+  flex: 1;
+  max-width: 700 px;
+  background-color: #c4ccc6;
+  margin: 40px 10px;
+  border-radius: 20px 20px 20px 20px;
+  text-align: center;
+  cursor: pointer;
+  overflow: hidden;
+  color: #2d2d2d;
+  transition: .3s linear;
+}
+
+.pricing-card-header{
+  background-color:#94d6d6;
+  display: inline-block;
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 0 0 20px 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  /*transition: .4s linear;*/
+}
+
+/*.pricing-card:hover .pricing-card-header{
+  box-shadow: 0 0 0 26em #0fbcf9;*/
+}
+
+.price{
+  font-size: 150px;
+  color: #8cc9d1;
+  margin: 40px 0;
+  /*transition: .2s linear;*/
+}
+
+.price, .price span{
+  font-size: 22px;
+  font-weight: 700;
+}
+
+/*.pricing-card:hover ,.price{
+  color: #fff;*/
+}
+
+.pricing-card li{
+  font-size: 22px;
+  padding: 10px 0;
+  text-transform: uppercase;
+}
+
+.order-btn{
+  display: inline-block;
+  margin-bottom: 40px;
+  margin-top: 80px;
+  border: 3px solid #0fbcf9;
+  color: #0fbcf9;
+  padding: 18px 40px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-decoration: none;
+  /*transition: .3s linear;*/
+}
+
+.order-btn:hover{
+  background-color: #8cc9d1;
+  color: #fff;
+}
+
+@media screen and (max-width:1100px){
+  .pricing-card{
+    flex: 70%;
+  }
+
+}
+
+footer {
+  text-align: center;
+  justify-content: center;
+  color: #000;
+  padding:12px 30px;
+  border-radius: 20px 20px 20px 20px;
+  background-color: #c4ccc6;
+
+footer .copyright {
+  margin-bottom: .0rem;
+  text-decoration: none;
+}
+
+footer .credits {
+  margin-bottom: 0;
+  text-decoration: none;
+  color: #000;
+}
+
+/*footer .credits a {
+  color: #000;
+}*/
+
