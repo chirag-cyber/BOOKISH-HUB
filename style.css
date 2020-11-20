@@ -45,6 +45,13 @@ nav .menu a{
 	text-decoration: none; color: white;
 	font-weight: bold;
 }
+#video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
 /*nav .sign-button a{
 	border-radius: 4px;
 	margin-top: 100px;
